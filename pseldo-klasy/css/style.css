@@ -1,0 +1,24 @@
+#name:hover{
+    background-color: aquamarine;
+}
+#name:focus{
+    background-color: blueviolet;
+}
+.customer:first-child{
+    color: blue;
+}
+.customer:last-child{
+    color: red;
+}
+.customer:nth-child(3){
+    background-color: #4eec2e;
+}
+.customer:nth-child(3n){
+    background-color: #f348a6;
+}
+.customer:nth-child(2n + 5){
+    background-color: #f3cb48;
+}
+.customer:nth-last-child(2n + 10){
+    background-color: #59deff;
+}
