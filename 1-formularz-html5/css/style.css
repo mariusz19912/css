@@ -1,0 +1,35 @@
+form{
+    background-color: #213b50;
+    padding: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+form input, form section, form textarea, form select{
+    width: 300px;
+    background-color: #2b4a64;
+    outline: none;
+    border: 1px solid white;
+}
+form input[type="radio"],form input[type="checkbox"]{
+    width:10px;
+}
+form label{
+    display: block;
+}
+.gender{
+    display: inline;
+}
+label[for="agreement"]{
+    display: inline;
+}
+option[value]{
+    background-color: #2b4a64;
+    color: white;
+}
+[type="submit"]{
+width:70px;
+height: 20px;
+background-color: green;
+color: white;
+}
+
