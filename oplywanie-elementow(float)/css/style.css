@@ -7,3 +7,7 @@
 #strawberry{
     float: none;
 }
+p:last-child{
+    background-color: aquamarine;
+    clear: both;
+}
