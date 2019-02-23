@@ -1,0 +1,22 @@
+
+section.container{
+    display: flex;
+    border: 2px dotted red;
+    flex-wrap: wrap;
+    height: 700px;
+    align-items: flex-start;
+
+}
+.flex-item{
+    color:white;
+    border: 5px solid blue;
+    padding: 10px;
+    margin: 3px;
+    background-color: orange;
+    /* max-height: 240px; */
+    flex-basis: 15%;
+}
+.flex-item:nth-last-of-type(odd){
+    background-color: grey;
+    /* max-height: 150px; */
+}
