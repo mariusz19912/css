@@ -1,0 +1,27 @@
+img{
+    height: 300px;
+    margin-bottom: 300px;
+    transition: all 5s;
+}
+div.rotate img{
+    transform: rotate(20deg); 
+}
+div.translate img{
+    transform: translate(200px,100px);
+}
+div.scale img:hover{
+    transform: scale(0.75,0.75);
+}
+.animation img{
+     animation:resize;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+}
+@keyframes resize{
+    0%,100%{
+        height: 300px;
+    }
+    50% {
+        height: 50px;
+    }
+}
